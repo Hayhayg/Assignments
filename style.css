@@ -1,0 +1,37 @@
+header {
+  background-color: #0D0F81;
+}
+footer {
+  text-align:left;
+}
+nav {
+  font-size: 10;
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+h3{
+  color: #B74137
+}
+h1{
+  color: darkcyan;
+}
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+th {
+  color:white;
+  background-color:black;
+  font-size: 1.5em;
+  font-family: serif;
+}
+.even {
+  background-color: rgb(125, 225, 67);
+}
+.odd {
+  background-color: lightgray;
+}
+tr{
+  color: #2164CC
+}
