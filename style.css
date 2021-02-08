@@ -1,58 +1,79 @@
 header {
   background-color: rgb(199, 199, 199);
 }
+
+nav {
+  font-size: 10;
+  text-align: center;
+}
+
+main {
+background-color: aliceblue;
+}
+
 footer {
   text-align:left;
     background-color: aliceblue;
 }
+
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+  color: darkcyan;
+}
+
+p{
+  font-style: italic;
+}
+
 img{
   width: 100%;
   height: 75px;
   opacity: 0.55;
 }
+
+ol{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+il{
+
+
+}
+
+ul{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 table{
-  background-color: rgb(89, 133, 255);
+  background-color: rgb(255, 255, 255);
 }
-nav {
-  font-size: 10;
-  text-align: center;
-}
-main {
-background-color: aliceblue;
-}
-h3{
-  color: #B74137
-}
-h1{
-  color: darkcyan;
-}
-body{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-p{
-  font-style: italic;
-}
+
 th {
-  color:white;
+  color:rgb(255, 255, 255);
   background-color:black;
   font-size: 1.5em;
   font-family: serif;
 }
-.even {
-  background-color: rgb(160, 205, 223);
+
+td{
+  color: rgb(131, 16, 16);
+  font-size: 1.5em;
 }
+
+h3{
+  color: #B74137
+}
+
 .odd {
-  background-color: rgb(202, 202, 202);
+  background-color: rgb(195, 195, 195);
 }
-tr{
-  color: rgb(255, 255, 255);
-  font-size: 1.2em;
-}
-ol{
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
-ul{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.list {
+  background-color: rgb(174, 236, 255);
+
 }
 .home {
   text-align: center;
