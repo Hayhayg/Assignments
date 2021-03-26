@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <header>
+      <img src="images/mountainHeader.jpg">
+    </header>
+    
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="page1.html">Page 1</a>
+      <a href="page2.html">Page 2</a>
+      <a href="page3.html">Page 3</a>
+      <a href="https://www.columbusstate.edu/">CSU Home Page</a>
+    </nav>
+    
+    <main>
+      <h1 class="home">Welcome to Phyco!</h1>
+      <div class="col-4 col-s-12">
+        <p class="home">Thank you for visiting our site.</p>
+      </div>
+      <div class="col-4 col-s-6">
+        <form name="myForm" action="https://webdevbasics.net/scripts/yoga.php" onsubmit="return validateForm()" method="post">
+        <label for="fname">First name: </label>
+        <input type="text" id="fname" name="fname" placeholder="Jane" required size="17" maxlength="50">
+        <br><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname" placeholder="Doe" required size="17" maxlength="50">
+        <br><br>
+        <label for="phone">Phone Number: </label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required size="25" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="janedoe@gmail.com" required>
+        <br><br>
+        <label for="password">Password: </label>
+        <input type="text" id="password" name="password" placeholder="janeDoe1!" maxlength="20">
+        <br><br>
+        <label for="state">Choose a State</label>
+        <select name="state" id="state">
+          <option value="Alabama">AL</option>
+          <option value="Florida">FL</option>
+          <option value="Georgia">GA</option>
+        </select><br><br>
+        <label for="maritalStatus">Marital Status</label><br>
+        <input type="radio" id="single" name="maritalStatus" value="single" required>
+        <label for="single">Single</label><br>
+        <input type="radio" id="married" name="maritalStatus" value="married" required>
+        <label for="married">Married</label><br><br>
+        <label for="skills">Skills</label><br>
+        <input type="checkbox" id="skill1" name="skill1" value="python">
+        <label for="skill1">Python</label><br>
+        <input type="checkbox" id="skill2" name="skill2" value="java">
+        <label for="skill2">Java</label><br>
+        <input type="checkbox" id="skill3" name="skill3" value="html">
+        <label for="skill3">HTML</label><br>
+        <label for="comment">Comment: </label>
+        <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Great work!" required></textarea><br>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+      </div>
+      <div class="col-4 col-s-6">
+        <ol type="I">
+        <li>Creating Lists</li>
+        <ol type="i">
+          <li>Ordered lists numbered</li>
+          <li>Unordered lists</li>
+          <li>Ordered lists with Roman numerals</li>
+        </ol>
+        <li>Utilizing new programs</li>
+        <ol type="i">
+          <li>Writing and running on Repl.it</li>
+          <li>Github to commit using Repl.it</li>
+        </ol>
+        <li>Basics of HTML</li>
+        <ol type="i">
+          <li>Creating different types of headings</li>
+          <li>Including pictures from files and existing webpages</li>
+          <li>Creating the body of the text</li>
+        </ol>
+      </ol>
+      </div>
+
+    </main>
+    
+    <footer class="row">
+      <h3>Company </h3>
+      <p>Phyco Industries</p>
+      <h3>Contact Info </h3>
+      <p>Phyco@corp.com</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
